@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veterinária</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="estilos/veterinaria.css" />
+    <link rel="stylesheet" href="estilos/media-query.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo">PetClínica</a>
+        <input type="checkbox" id="check" />
+        <label for="check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul>
+          <li>
+            <a href="#">Ínicio</a>
+          </li>
+          <li>
+            <a href="#">Serviços</a>
+          </li>
+          <li>
+            <a href="#">Sobre Nós</a>
+          </li>
+          <li>
+            <a href="#">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <section>
+          <h1>Tudo que seu melhor amigo precisa em um único lugar!</h1>
+          <p id="info">
+            Aqui contamos com Consultas, Cirurgias, Internamento 24h e Exames
+          </p>
+          <p id="anos">Hospital e Clínica Veterinária há 25 anos</p>
+          <span class="botao" id="emergencia"
+            ><a href="#">Emergência <i class="fa fa-phone"></i></a
+          ></span>
+          <span class="botao" id="whatsapp"
+            ><a href="#">WhatsApp <i class="fa fa-whatsapp"></i></a
+          ></span>
+        </section>
+        <figure>
+          <img src="imagem/cachorro.png" alt="cachorro" />
+        </figure>
+      </aside>
+      <article>
+        <div class="banner-pet">
+          <h2>
+            Seu sorriso com o bem estar<br />
+            do seu pet,<br />
+            é o que buscamos!
+          </h2>
+          <div class="imagens-pet">
+            <img
+              class="sombra pet-img"
+              src="imagem/pessoas-e-pets/maes-de-pet (1).png"
+              alt="Pet 1"
+            />
+            <img
+              class="sombra pet-img"
+              src="imagem/pessoas-e-pets/maes-de-pet (2).png"
+              alt="Pet 2"
+            />
+            <img
+              class="sombra pet-img"
+              src="imagem/pessoas-e-pets/maes-de-pet (3).png"
+              alt="Pet 3"
+            />
+          </div>
+        </div>
+        <section class="sobre-nos">
+          <h2 class="titulo-sobre">SOBRE NÓS</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.<br />
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+          </p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.<br />
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+          </p>
+          <!-- Carrossel de imagens -->
+          <div class="carrossel-sobre">
+            <img
+              class="img-carrossel sombra"
+              src="imagem/pessoas-e-pets/maes-de-pet (4).png"
+              alt="Sobre 1"
+            />
+            <img
+              class="img-carrossel sombra"
+              src="imagem/pessoas-e-pets/maes-de-pet (3).png"
+              alt="Sobre 2"
+              style="display: none"
+            />
+          </div>
+          <!-- Botões abaixo do carrossel -->
+          <div class="botoes-carrossel">
+            <button id="btn-contato" class="botao-carrossel">
+              Fale conosco <i class="fa fa-whatsapp"></i>
+            </button>
+          </div>
+        </section>
+        <section class="nossa-historia">
+          <h2 class="titulo-historia">NOSSA HISTÓRIA</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.<br />
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+          </p>
+          <div class="imagem-historia">
+            <img
+              src="imagem/pessoas-e-pets/maes-de-pet (4).png"
+              alt="Imagem História"
+            />
+          </div>
+        </section>
+        <section class="servicos">
+          <h2 class="titulo-servicos">SERVIÇOS</h2>
+          <p class="sub-servicos">
+            SEGURANÇA E CONFORTO DO SEU<br />
+            BICHINHO GARANTIDOS!
+          </p>
+          <div class="lista-servicos">
+            <div class="servico-box">
+              <div class="servico-icone">
+                <i class="fa fa-paw"></i>
+              </div>
+              <p class="servico-nome">NOME DO SERVIÇO</p>
+            </div>
+            <div class="servico-box">
+              <div class="servico-icone">
+                <i class="fa fa-heart"></i>
+              </div>
+              <p class="servico-nome">NOME DO SERVIÇO</p>
+            </div>
+            <div class="servico-box">
+              <div class="servico-icone">
+                <i class="fa fa-stethoscope"></i>
+              </div>
+              <p class="servico-nome">NOME DO SERVIÇO</p>
+            </div>
+            <div class="servico-box">
+              <div class="servico-icone">
+                <i class="fa fa-bone"></i>
+              </div>
+              <p class="servico-nome">NOME DO SERVIÇO</p>
+            </div>
+          </div>
+        </section>
+        <section class="diferenciais">
+          <h2 class="titulo-diferenciais">
+            NOSSOS DIFERENCIAIS<br />PARA SEU PET
+          </h2>
+          <div class="lista-diferenciais">
+            <div class="diferencial-box">DIFERENCIAS</div>
+            <div class="diferencial-box">DIFERENCIAS</div>
+            <div class="diferencial-box">DIFERENCIAS</div>
+          </div>
+        </section>
+        <section class="reviews-carousel">
+          <h2>⭐⭐⭐⭐⭐ 4,9/5</h2>
+          <p>
+            Baseado em 212 avaliações no <br />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+              alt="Google"
+              class="google-logo"
+            />
+          </p>
+
+          <div class="carousel">
+            <div class="review-card active">
+              <p>“Atendimento excelente.”</p>
+              <span>– Pedro R. (21/08/2024)</span>
+            </div>
+
+            <div class="review-card">
+              <p>“Ambiente agradável e acolhedor.”</p>
+              <span>– Larissa F. (10/08/2024)</span>
+            </div>
+
+            <div class="review-card">
+              <p>“Equipe muito profissional.”</p>
+              <span>– Marcos T. (02/08/2024)</span>
+            </div>
+          </div>
+
+          <a href="https://maps.google.com/..." target="_blank" class="btn"
+            >Ver todas no Google</a
+          >
+
+          <!-- Botões de navegação -->
+          <div class="controls">
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+          </div>
+        </section>
+        <section class="localizacao">
+          <div class="visite">
+            <h2>Venha conhecer nossa unidade em ...</h2>
+            <p>
+              📍Av. Brasil, 9999 - Rio de Janeiro, Rio de Janeiro - RJ,
+              XXXXX-XXX
+            </p>
+            <div class="botoesLocalizacao">
+              <span class="botaoLocalizacao" id="whatsapp"
+                ><a href="#">WhatsApp <i class="fa fa-whatsapp"></i></a
+              ></span>
+              <span class="botaoLocalizacao"
+                ><a href="#">Ligar agora <i class="fa fa-phone"></i></a
+              ></span>
+            </div>
+          </div>
+          <div class="mapa">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9532.524731445335!2d-43.11525721441855!3d-22.902645884041217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1756926042481!5m2!1sen!2sbr"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <div id="infoEmpresa">
+        <a href="#" class="logo">PetClínica</a>
+        <p>
+          Aqui seu pet tem acesso ao melhor cuidado, todos os dias, a qualquer
+          hora.
+        </p>
+        <p id="cnpj">CNPJ: XX.XXX.XXX/XXXX-XX</p>
+      </div>
+      <div id="redesSocias">
+        <h4>REDES SOCIAS</h4>
+        <div id="icones">
+          <a href=""><i class="fa fa-whatsapp"></i></a>
+          <a href=""><i class="fa fa-instagram"></i></a>
+          <a href=""><i class="fa fa-facebook"></i></a>
+        </div>
+      </div>
+      <div id="endereco">
+        <h4>ENDEREÇO</h4>
+        <p>📍Av. Brasil, 9999 - Irajá, Rio de Janeiro - RJ, XXXXX-XXX</p>
+      </div>
+      <div id="horario">
+        <h4>HORÁRIO DE FUNCIONAMENTO</h4>
+        <p>Segunda à domingo, 24 horas por dia, inclusive feriados!</p>
+      </div>
+    </footer>
+    <script src="scripts/responsividade.js"></script>
+  </body>
+</html>
