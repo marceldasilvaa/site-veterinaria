@@ -203,7 +203,7 @@ figure img {
 article {
   background: var(--secondColor);
   height: auto;
-  padding: 100px 0 30px 0;
+  padding: 50px 0 0 0;
 }
 
 .banner-pet {
@@ -304,20 +304,31 @@ article {
   justify-content: center;
 }
 
-.botao-carrossel {
-  background: var(--primaryColor);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: all 0.25s ease-in;
+.botoesLocalizacao {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  margin: 20px;
 }
 
-.botao-carrossel:hover {
-  background: var(--secondColor);
+.botaoLocalizacao a {
+  font-size: 1.1em;
+  padding: 10px 60px;
+  text-decoration: none;
   border-radius: 15px;
+  color: white;
+  background: #c04d4d;
+  transition: 0.25s ease-out;
+}
+
+#faleConosco a {
+  background: var(--secondColor);
+}
+
+.botaoLocalizacao a:hover {
+  border-radius: 0;
 }
 
 /* NOSSA HISTÓRIA */
@@ -631,7 +642,7 @@ footer {
   justify-content: space-around;
   color: white;
   background: var(--secondColor);
-  padding: 20px;
+  padding: 40px;
 }
 
 footer a.logo {
@@ -701,7 +712,7 @@ h4 {
 
 #endereco p {
   text-align: center;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 #horario {
@@ -711,5 +722,5 @@ h4 {
 
 #horario p {
   text-align: center;
-  font-size: .9em;
+  font-size: 0.9em;
 }
