@@ -162,8 +162,9 @@ section #anos {
 
 section .botao {
   display: block;
+  width: 200px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 section #emergencia a {
@@ -175,8 +176,11 @@ section #whatsapp a {
 }
 
 section .botao a {
+  display: block;
+  width: 100%;
   font-size: 1.2em;
   letter-spacing: 1px;
+  text-align: center;
   text-decoration: none;
   color: white;
   padding: 10px 30px;
