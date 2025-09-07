@@ -482,7 +482,7 @@ article {
 }
 
 .diferencial-box {
-  background: #111;
+  background: var(--secondColor);
   color: #fff;
   border-radius: 16px;
   padding: 42px 18px;
